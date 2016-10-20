@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>MyApp</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <link rel="stylesheet" type="text/css" href="css/dx.common.css" />
+    <link rel="stylesheet" href="css/dx.light.css" />
+    <!--
+        Other available themes:
+        <link rel="stylesheet" href="css/dx.light.compact.css" />
+        <link rel="stylesheet" href="css/dx.contrast.css" />
+        <link rel="stylesheet" href="css/dx.contrast.compact.css" />
+        <link rel="stylesheet" href="css/dx.dark.css" />
+        <link rel="stylesheet" href="css/dx.dark.compact.css" />
+    -->
+    <!--[if lt IE 9]>
+    <script src="js/jquery-1.12.3.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]><!-->
+    <script src="js/jquery-2.2.3.min.js"></script>
+    <!--<![endif]-->
+    <!-- Uncomment to support Knockout MVVM style
+    See http://knockoutjs.com for details -->
+    <!--
+    <script src="js/knockout-3.4.0.js"></script>
+    -->
+    <!-- Uncomment to support AngularJS approach
+    See http://angularjs.org for details -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-sanitize.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular-route.min.js"></script>
+    
+    <script src="js/cldr.min.js"></script>
+    <script src="js/cldr/event.min.js"></script>
+    <script src="js/cldr/supplemental.min.js"></script>
+    <script src="js/cldr/unresolved.min.js"></script>
+    <script src="js/globalize.min.js"></script>
+    <script src="js/globalize/message.min.js"></script>
+    <script src="js/globalize/number.min.js"></script>
+    <script src="js/globalize/date.min.js"></script>
+    <script src="js/globalize/currency.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jszip/2.6.0/jszip.min.js"></script>
+
+    <script src="js/dx.web.js"></script>
+    <!--
+    <script src="js/dx.web.debug.js"></script>
+    -->
+    <script src="~/app/app.js"></script>
+    <script src="~/app/controllers/homeCtrl.js"></script>
+    <script src="~/app/controllers/productCtrl.js"></script>
+    <script src="~/app/controllers/categoryCtrl.js"></script>
+</head>
+<body>
+    @RenderBody()
+    <div ng-view>
+
+    </div>
+</body>
+</html>
