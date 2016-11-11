@@ -14,6 +14,10 @@ app.config(function ($routeProvider) {
         templateUrl: 'app/views/category.html',
         controller: 'categoryCtrl'
     })
+    .when('/chart', {
+        templateUrl: 'app/views/chart.html',
+        controller: 'chartCtrl'
+    })
       //.when('/tags/:tagId', {
       //    templateUrl: '/partials/template2.html',
       //    controller: 'ctrl2'

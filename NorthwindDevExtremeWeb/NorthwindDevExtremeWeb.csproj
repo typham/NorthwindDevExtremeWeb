@@ -218,8 +218,10 @@
   <ItemGroup>
     <Content Include="app\app.js" />
     <Content Include="app\controllers\categoryCtrl.js" />
+    <Content Include="app\controllers\chartCtrl.js" />
     <Content Include="app\controllers\productCtrl.js" />
     <Content Include="app\controllers\homeCtrl.js" />
+    <Content Include="app\views\chart.html" />
     <Content Include="app\views\index.html" />
     <Content Include="app\views\category.html" />
     <Content Include="app\views\product.html" />
